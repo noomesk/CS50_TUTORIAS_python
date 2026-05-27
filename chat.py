@@ -1,3 +1,4 @@
+#Tutioria 1: Cambiando modelo OPENAI por Ollama: 
 import os
 import requests
 from dotenv import load_dotenv
@@ -26,3 +27,6 @@ except requests.ConnectionError:
     print("¿Está Ollama corriendo? Ejecuta: ollama serve")
 except Exception as exc:
     print(f"Error: {exc}")
+
+
+#profesora: A.Plazas
