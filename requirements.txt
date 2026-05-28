@@ -1,2 +1,3 @@
+#no es necesario openai, mejor descarga ollama y usaremos modelos OpenSource :) 
 openai
 python-dotenv
