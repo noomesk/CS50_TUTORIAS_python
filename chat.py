@@ -7,7 +7,7 @@ load_dotenv()
 
 prompt = input("Prompt: ")
 
-# Usa una variable de entorno `OLLAMA_MODEL` para escoger el modelo
+# Usa una variable de entorno `OLLAMA_MODEL` en este caso, para escoger el modelo 
 model = os.getenv("OLLAMA_MODEL", "qwen2.5-coder:1.5b")
 print(f"Usando modelo: {model}")
 
